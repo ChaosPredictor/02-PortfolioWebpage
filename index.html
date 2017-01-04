@@ -8,23 +8,29 @@
 		<script src="main.js"></script> 
 	</head>
 	<body>
-		<div class="page page1">
-		  <div class="header container">
+		<header class="header container col-md-12">
     		<div class="header-menu row col-md-5 pull-right">
     		  <div class="col-md-3">
-    		    <button class="btn btn-block btn-primary">Home</button>
+						<a href="#page1">
+	    		    <button class="btn btn-block btn-primary">Home</button>
+						</a>
     		  </div>
     		  <div class="col-md-3">  
-    		    <button class="btn btn-block btn-primary">About</button>
-    		  </div>
-    		  <div class="col-md-3">  
-    		    <button class="btn btn-block btn-primary">Portfolio</button>
-    		  </div>
+						<a href="#page2">
+	    		    <button class="btn btn-block btn-primary">About</button>
+						</a>  
+	  		  </div>
+    		  <div class="col-md-3">
+					  <a href="#page3">
+							<button class="btn btn-block btn-primary">Portfolio</button>
+    		  	</a>
+					</div>
     		  <div class="col-md-3">  
     		    <button class="btn btn-block btn-primary">Contact</button>
     		  </div>
     		</div>
-  		</div>
+		</header>
+		<div id="page1" class="page page1">
 			<div>
 				<h1 class="text-center main-title">Chaos Predictor Portfolio Web</h1>
 				<h3 class="text-center submain-title">true like only the life can be</h3>
@@ -36,11 +42,11 @@
 	    		    <button type="submit" class="btn btn-block btn-info">Linkedin</button>
 						</form>
     		  </div>
-    		  <!--div class="col-md-3">
-						<form action="https://www.linkedin.com/in/dmitry-kuznichov-1877289" target="_blank">
-	    		    <button class="btn btn-block btn-info">Twitter</button>
+    		  <div class="col-md-3">
+						<form action="http://stackoverflow.com/users/3650983/chaospredictor" target="_blank">
+	    		    <button class="btn btn-block btn-info">Stack overflow</button>
 						</form>
-    		  </div-->
+    		  </div>
     		  <div class="col-md-3">  
 						<form action="https://github.com/ChaosPredictor" target="_blank">
 	    		    <button class="btn btn-block btn-info">Github</button>
@@ -52,7 +58,7 @@
   			</div>
 			</div>
 		</div>
-		<div class="page page2">
+		<div id="page2" class="page page2">
 			<div class="col-md-8">
 				<h2 class="text-center main-title">Chaos Predictor Portfolio Web</h2>
 				<div class="about-text" id="includedContent"></div>
@@ -61,7 +67,7 @@
 				<image class="profile-image" src="image/IMG_5833_part.jpg" />
 			</div>
 		</div>
-		<div class="page page3">
+		<div id="page3" class="page page3">
 		</div>
 	</body>
 </html>
