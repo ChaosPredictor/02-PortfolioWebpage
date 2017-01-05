@@ -2,21 +2,30 @@
 <html lang="en">
 	<head>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
 		<link rel="stylesheet" rel="stylesheet" href="main.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ 
+
+   <!--script src="vendor/jquery/jquery.min.js"></script-->
+
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="js/agency.min.js"></script>
+
 		<script src="main.js"></script> 
 	</head>
-	<body>
-		<header class="header container col-md-12">
+	<body data-spy="scroll">
+		<!--header class="header container col-md-12">
     		<div class="header-menu row col-md-5 pull-right">
     		  <div class="col-md-3">
-						<a href="#page1">
+						<a href="#page1" class="page-scroll">
 	    		    <button class="btn btn-block btn-primary">Home</button>
 						</a>
     		  </div>
     		  <div class="col-md-3">  
-						<a href="#page2">
+						<a href="#page2" class="page-scroll">
 	    		    <button class="btn btn-block btn-primary">About</button>
 						</a>  
 	  		  </div>
@@ -29,7 +38,43 @@
     		    <button class="btn btn-block btn-primary">Contact</button>
     		  </div>
     		</div>
-		</header>
+		</header-->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div>
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll" >
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    </button>
+                    <!--div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
+                        <img href="#page-top" class="img-responsive" src="img/Fortitudine-red_180x180.png" />
+                    </div-->
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#page1">Home</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#page2">About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#page3">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
 		<div id="page1" class="page page1">
 			<div>
 				<h1 class="text-center main-title">Chaos Predictor Portfolio Web</h1>
@@ -68,6 +113,15 @@
 			</div>
 		</div>
 		<div id="page3" class="page page3">
+
+			<div class="col-md-12 portfolio">
+				<div class="col-md-4 col-md-offset-1">
+					<image class="portfolio-image" src="image/Mozilla Firefox_006.jpg" />
+				</div>
+				<div class="col-md-4 col-md-offset-2">
+					<image class="portfolio-image" src="image/Mozilla Firefox_006.jpg" />
+				</div>
+			</div>
 		</div>
 	</body>
 </html>

@@ -67,6 +67,83 @@ h1.main-title {
 }
 
 
+
+
+.btn-xl .badge {
+  color: rgba(254, 0, 0, 0.1);
+  background-color: white;
+}
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active {
+  background-color: #fe0000;
+}
+.navbar-custom {
+  background-color: rgba(200,20,20,0.1);
+  border-color: transparent;
+}
+.navbar-custom .navbar-brand {
+  color: #fe0000;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #cb0000;
+}
+.navbar-custom .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-custom .navbar-toggle {
+  background-color: #fe0000;
+  border-color: #fe0000;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #fe0000;
+}
+.navbar-custom .nav li a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+  background-color: #5bc0de;
+	margin: 0px 10px ;
+  border-radius: 20px;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: white;
+  outline: none;
+  background-color: #3ba0be;
+	margin: 0px 10px;
+  border-radius: 20px;
+}
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: #fe0000;
+  border-radius: 20px;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #cb0000;
+}
+
+
+
+
+
+
+
 h2.main-title {
 	padding-top: 100px;
 	font-family: "Comic Sans MS", cursive, sans-serif;
@@ -85,5 +162,16 @@ h2.main-title {
 	height: 240px;
 	margin-top: 132px;
 	margin-left: 50px;
+}
+
+.portfolio{
+	margin-top: 200px;	
+}
+
+.portfolio-image {
+	max-width:100%;
+	max-height:100%;
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
