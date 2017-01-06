@@ -1,5 +1,6 @@
 body {
 	margin-top: -20px;
+  height: 100%;	
 }
 
 header {
@@ -36,6 +37,12 @@ header {
 }
 
 
+.page4 {
+  background-image: url("https://lh3.googleusercontent.com/A9_pQyDFrxCU64YBcAvFBvWBAa1XEZpSJoa6UBSyFsvMDroDNXlRnCaY419rW7CxNaw_aq4XMMWgWZJ8hleUZYI2UjlgU16GQIyU6tQSSIxOfNPRefwMNvZLfoaUevAsrCh4ouKPx1phQT4vFKzXA9RKZAlsXRlhrWkPdBEL9-aPS9wZIkOJzmPKLdTrbBIYjmvP0lqk9AHnG8XivFkGL3cHa3xCzwgfZBVItsWItH1LjH3xi5bzBCRzjtyfyxX4LZHYXLlOT1yqHUIlbTSmcppoULEh0iDYCG6zd43mElyw1ChWZAwRfRY2_O_X7xjrRAU5ZZvUh-QSuydSycpQDcylBafAuyXPvdnDpDktb3yy0H0nWZA0EuE2JK1KeH8yiJWz1hwzC7teUbLHJMd4ujd9U8d1RuLWjNON42McA8NuQXARHYT7JAHWr9Ko_6V1iKJuK4bVUjLR9uUdZLsdIm-nvMFxGKZ2Tlyr1W3zt81SXJUIuuJVjowuafSKhznHCp8jdQeB47_nKM_dhhxD_1uyXErYZbqUVOVuOTBRJOgOBh5FSi5Q2FFyFK5xWBJFZkp2EwNjMkOxJuJVjciAnItUYF6suDaPp53BfNQASxFUIl4=w904-h676-no");
+}
+
+
+
 
 
 h1.main-title {
@@ -65,8 +72,6 @@ h1.main-title {
 .main-menu {
   padding: 15px 0;
 }
-
-
 
 
 .btn-xl .badge {
@@ -116,7 +121,7 @@ h1.main-title {
   color: white;
   background-color: #5bc0de;
 	margin: 0px 10px ;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
@@ -124,25 +129,19 @@ h1.main-title {
   outline: none;
   background-color: #3ba0be;
 	margin: 0px 10px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
   background-color: #fe0000;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
   background-color: #cb0000;
 }
-
-
-
-
-
-
 
 h2.main-title {
 	padding-top: 100px;
@@ -165,13 +164,34 @@ h2.main-title {
 }
 
 .portfolio{
-	margin-top: 200px;	
+	margin-top: 100px;	
+}
+
+.portfolio-title{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-style: italic;
+	font-size: 40px;
+	color: black;
 }
 
 .portfolio-image {
+	margin-top:30px;
 	max-width:100%;
 	max-height:100%;
   background-repeat: no-repeat;
   background-size:cover;
+}
+
+
+
+.contact{
+	margin-top: 100px;	
+}
+
+.contact-title{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-style: italic;
+	font-size: 40px;
+	color: black;
 }
 
