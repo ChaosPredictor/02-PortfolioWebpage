@@ -12,7 +12,7 @@ The motivation for this project is to learn front end development.
 
 ## Installation
 
-This project doesn't require any installation, all you need to see that website is a web browser.
+This project doesn't require any installation, all you need to use that website is a web browser.
 
 ## API Reference
 
